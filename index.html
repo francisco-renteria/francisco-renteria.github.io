@@ -3,11 +3,17 @@
 
 <html lang="en">
 <head>
-  <meta http-equiv="refresh" content="0; url=./reader/index.html" />
+  <!meta http-equiv="refresh" content="0; url=./reader/index.html" />
+  <script src="./epub.js"></script>
 </head>
 
 <body>
   <!-- your content here... -->
-  
+  <div id="area"></div>
 </body>
 </html>
+<script>
+  var book = ePub("tf.epub");
+  var rendition = book.renderTo("area", {width: 600, height: 400});
+  var displayed = rendition.display();
+</script>
