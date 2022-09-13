@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<!DOCTYPE ncx PUBLIC "-//NISO//DTD ncx 2005-1//EN" "http://www.daisy.org/z3986/2005/ncx-2005-1.dtd">
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1">
+<head>
+<meta content="ID:ISBN:9781098125974" name="dtb:uid"/>
+<meta content="3" name="dtb:depth"/>
+<meta content="0" name="dtb:totalPageCount"/>
+<meta content="0" name="dtb:maxPageNumber"/>
+</head>
+<docTitle><text>Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow, 3rd Edition</text></docTitle>
+<docAuthor><text>Aurélien Géron</text></docAuthor>
+<navMap><navPoint id="idm46324234951136" playOrder="1"><navLabel><text>Preface</text></navLabel><content src="preface01.xhtml#idm46324234951136"/><navPoint id="idm46324234950144" playOrder="2"><navLabel><text>The Machine Learning Tsunami</text></navLabel><content src="preface01.xhtml#idm46324234950144"/></navPoint>
+<navPoint id="idm46324234937056" playOrder="3"><navLabel><text>Machine Learning in Your Projects</text></navLabel><content src="preface01.xhtml#idm46324234937056"/></navPoint>
+<navPoint id="idm46324234915856" playOrder="4"><navLabel><text>Objective and Approach</text></navLabel><content src="preface01.xhtml#idm46324234915856"/></navPoint>
+<navPoint id="idm46324234685488" playOrder="5"><navLabel><text>Prerequisites</text></navLabel><content src="preface01.xhtml#idm46324234685488"/></navPoint>
+<navPoint id="idm46324226933392" playOrder="6"><navLabel><text>Roadmap</text></navLabel><content src="preface01.xhtml#idm46324226933392"/></navPoint>
+<navPoint id="idm46324234812112" playOrder="7"><navLabel><text>Changes in the Third Edition</text></navLabel><content src="preface01.xhtml#idm46324234812112"/></navPoint>
+<navPoint id="idm46324228313856" playOrder="8"><navLabel><text>Code Examples</text></navLabel><content src="preface01.xhtml#idm46324228313856"/></navPoint>
+<navPoint id="idm46324233602224" playOrder="9"><navLabel><text>Other Resources</text></navLabel><content src="preface01.xhtml#idm46324233602224"/></navPoint>
+<navPoint id="idm46324235123232" playOrder="10"><navLabel><text>Conventions Used in This Book</text></navLabel><content src="preface01.xhtml#idm46324235123232"/></navPoint>
+<navPoint id="idm46324233844512" playOrder="11"><navLabel><text>O’Reilly Online Learning</text></navLabel><content src="preface01.xhtml#idm46324233844512"/></navPoint>
+<navPoint id="idm46324228704768" playOrder="12"><navLabel><text>How to Contact Us</text></navLabel><content src="preface01.xhtml#idm46324228704768"/></navPoint>
+<navPoint id="idm46324234868816" playOrder="13"><navLabel><text>Acknowledgments</text></navLabel><content src="preface01.xhtml#idm46324234868816"/></navPoint>
+</navPoint>
+<navPoint id="fundamentals_part" playOrder="14"><navLabel><text>I. The Fundamentals of Machine Learning</text></navLabel><content src="part01.xhtml#fundamentals_part"/></navPoint>
+<navPoint id="landscape_chapter" playOrder="15"><navLabel><text>1. The Machine Learning Landscape</text></navLabel><content src="ch01.xhtml#landscape_chapter"/><navPoint id="what_is_machine_learning" playOrder="16"><navLabel><text>What Is Machine Learning?</text></navLabel><content src="ch01.xhtml#what_is_machine_learning"/></navPoint>
+<navPoint id="idm46324234856112" playOrder="17"><navLabel><text>Why Use Machine Learning?</text></navLabel><content src="ch01.xhtml#idm46324234856112"/></navPoint>
+<navPoint id="idm46324234855488" playOrder="18"><navLabel><text>Examples of Applications</text></navLabel><content src="ch01.xhtml#idm46324234855488"/></navPoint>
+<navPoint id="idm46324234541696" playOrder="19"><navLabel><text>Types of Machine Learning Systems</text></navLabel><content src="ch01.xhtml#idm46324234541696"/><navPoint id="idm46324232557056" playOrder="20"><navLabel><text>Training Supervision</text></navLabel><content src="ch01.xhtml#idm46324232557056"/></navPoint>
+<navPoint id="idm46324226915888" playOrder="21"><navLabel><text>Batch versus Online Learning</text></navLabel><content src="ch01.xhtml#idm46324226915888"/></navPoint>
+<navPoint id="idm46324234975360" playOrder="22"><navLabel><text>Instance-Based Versus Model-Based Learning</text></navLabel><content src="ch01.xhtml#idm46324234975360"/></navPoint>
+</navPoint>
+<navPoint id="idm46324234078144" playOrder="23"><navLabel><text>Main Challenges of Machine Learning</text></navLabel><content src="ch01.xhtml#idm46324234078144"/><navPoint id="idm46324226716016" playOrder="24"><navLabel><text>Insufficient Quantity of Training Data</text></navLabel><content src="ch01.xhtml#idm46324226716016"/></navPoint>
+<navPoint id="idm46324226700112" playOrder="25"><navLabel><text>Nonrepresentative Training Data</text></navLabel><content src="ch01.xhtml#idm46324226700112"/></navPoint>
+<navPoint id="idm46324226683872" playOrder="26"><navLabel><text>Poor-Quality Data</text></navLabel><content src="ch01.xhtml#idm46324226683872"/></navPoint>
+<navPoint id="idm46324226678912" playOrder="27"><navLabel><text>Irrelevant Features</text></navLabel><content src="ch01.xhtml#idm46324226678912"/></navPoint>
+<navPoint id="idm46324233543904" playOrder="28"><navLabel><text>Overfitting the Training Data</text></navLabel><content src="ch01.xhtml#idm46324233543904"/></navPoint>
+<navPoint id="idm46324233543280" playOrder="29"><navLabel><text>Underfitting the Training Data</text></navLabel><content src="ch01.xhtml#idm46324233543280"/></navPoint>
+<navPoint id="idm46324233509344" playOrder="30"><navLabel><text>Stepping Back</text></navLabel><content src="ch01.xhtml#idm46324233509344"/></navPoint>
+</navPoint>
+<navPoint id="idm46324233499744" playOrder="31"><navLabel><text>Testing and Validating</text></navLabel><content src="ch01.xhtml#idm46324233499744"/><navPoint id="idm46324233487440" playOrder="32"><navLabel><text>Hyperparameter Tuning and Model Selection</text></navLabel><content src="ch01.xhtml#idm46324233487440"/></navPoint>
+<navPoint id="idm46324233470992" playOrder="33"><navLabel><text>Data Mismatch</text></navLabel><content src="ch01.xhtml#idm46324233470992"/></navPoint>
+</navPoint>
+<navPoint id="idm46324233452832" playOrder="34"><navLabel><text>Exercises</text></navLabel><content src="ch01.xhtml#idm46324233452832"/></navPoint>
+</navPoint>
+<navPoint id="project_chapter" playOrder="35"><navLabel><text>2. End-to-End Machine Learning Project</text></navLabel><content src="ch02.xhtml#project_chapter"/><navPoint id="idm46324234181296" playOrder="36"><navLabel><text>Working with Real Data</text></navLabel><content src="ch02.xhtml#idm46324234181296"/></navPoint>
+<navPoint id="idm46324234150848" playOrder="37"><navLabel><text>Look at the Big Picture</text></navLabel><content src="ch02.xhtml#idm46324234150848"/><navPoint id="idm46324234144576" playOrder="38"><navLabel><text>Frame the Problem</text></navLabel><content src="ch02.xhtml#idm46324234144576"/></navPoint>
+<navPoint id="select_a_performance_measure" playOrder="39"><navLabel><text>Select a Performance Measure</text></navLabel><content src="ch02.xhtml#select_a_performance_measure"/></navPoint>
+<navPoint id="idm46324233924448" playOrder="40"><navLabel><text>Check the Assumptions</text></navLabel><content src="ch02.xhtml#idm46324233924448"/></navPoint>
+</navPoint>
+<navPoint id="idm46324233921088" playOrder="41"><navLabel><text>Get the Data</text></navLabel><content src="ch02.xhtml#idm46324233921088"/><navPoint id="idm46324233916928" playOrder="42"><navLabel><text>Running the Code Examples Using Google Colab</text></navLabel><content src="ch02.xhtml#idm46324233916928"/></navPoint>
+<navPoint id="idm46324233916432" playOrder="43"><navLabel><text>Saving Your Code Changes and Your Data</text></navLabel><content src="ch02.xhtml#idm46324233916432"/></navPoint>
+<navPoint id="idm46324233881120" playOrder="44"><navLabel><text>The Power and Danger of Interactivity</text></navLabel><content src="ch02.xhtml#idm46324233881120"/></navPoint>
+<navPoint id="idm46324233878432" playOrder="45"><navLabel><text>Book Code vs Notebook Code</text></navLabel><content src="ch02.xhtml#idm46324233878432"/></navPoint>
+<navPoint id="download_the_data" playOrder="46"><navLabel><text>Download the Data</text></navLabel><content src="ch02.xhtml#download_the_data"/></navPoint>
+<navPoint id="idm46324226292800" playOrder="47"><navLabel><text>Take a Quick Look at the Data Structure</text></navLabel><content src="ch02.xhtml#idm46324226292800"/></navPoint>
+<navPoint id="create_a_test_set" playOrder="48"><navLabel><text>Create a Test Set</text></navLabel><content src="ch02.xhtml#create_a_test_set"/></navPoint>
+</navPoint>
+<navPoint id="idm46324230860416" playOrder="49"><navLabel><text>Discover and Visualize the Data to Gain Insights</text></navLabel><content src="ch02.xhtml#idm46324230860416"/><navPoint id="idm46324215682448" playOrder="50"><navLabel><text>Visualizing Geographical Data</text></navLabel><content src="ch02.xhtml#idm46324215682448"/></navPoint>
+<navPoint id="idm46324215689056" playOrder="51"><navLabel><text>Looking for Correlations</text></navLabel><content src="ch02.xhtml#idm46324215689056"/></navPoint>
+<navPoint id="idm46324215196288" playOrder="52"><navLabel><text>Experimenting with Attribute Combinations</text></navLabel><content src="ch02.xhtml#idm46324215196288"/></navPoint>
+</navPoint>
+<navPoint id="idm46324215070224" playOrder="53"><navLabel><text>Prepare the Data for Machine Learning Algorithms</text></navLabel><content src="ch02.xhtml#idm46324215070224"/><navPoint id="idm46324215029168" playOrder="54"><navLabel><text>Data Cleaning</text></navLabel><content src="ch02.xhtml#idm46324215029168"/></navPoint>
+<navPoint id="idm46324214687632" playOrder="55"><navLabel><text>Handling Text and Categorical Attributes</text></navLabel><content src="ch02.xhtml#idm46324214687632"/></navPoint>
+<navPoint id="idm46324214693568" playOrder="56"><navLabel><text>Feature Scaling and Transformation</text></navLabel><content src="ch02.xhtml#idm46324214693568"/></navPoint>
+<navPoint id="idm46324213812784" playOrder="57"><navLabel><text>Custom Transformers</text></navLabel><content src="ch02.xhtml#idm46324213812784"/></navPoint>
+<navPoint id="idm46324213795456" playOrder="58"><navLabel><text>Transformation Pipelines</text></navLabel><content src="ch02.xhtml#idm46324213795456"/></navPoint>
+</navPoint>
+<navPoint id="idm46324212422064" playOrder="59"><navLabel><text>Select and Train a Model</text></navLabel><content src="ch02.xhtml#idm46324212422064"/><navPoint id="idm46324212296496" playOrder="60"><navLabel><text>Training and Evaluating on the Training Set</text></navLabel><content src="ch02.xhtml#idm46324212296496"/></navPoint>
+<navPoint id="idm46324212295904" playOrder="61"><navLabel><text>Better Evaluation Using Cross-Validation</text></navLabel><content src="ch02.xhtml#idm46324212295904"/></navPoint>
+</navPoint>
+<navPoint id="idm46324211808704" playOrder="62"><navLabel><text>Fine-Tune Your Model</text></navLabel><content src="ch02.xhtml#idm46324211808704"/><navPoint id="idm46324211801392" playOrder="63"><navLabel><text>Grid Search</text></navLabel><content src="ch02.xhtml#idm46324211801392"/></navPoint>
+<navPoint id="idm46324211588160" playOrder="64"><navLabel><text>Randomized Search</text></navLabel><content src="ch02.xhtml#idm46324211588160"/></navPoint>
+<navPoint id="idm46324211545952" playOrder="65"><navLabel><text>Ensemble Methods</text></navLabel><content src="ch02.xhtml#idm46324211545952"/></navPoint>
+<navPoint id="idm46324211483984" playOrder="66"><navLabel><text>Analyze the Best Models and Their Errors</text></navLabel><content src="ch02.xhtml#idm46324211483984"/></navPoint>
+<navPoint id="idm46324211322800" playOrder="67"><navLabel><text>Evaluate Your System on the Test Set</text></navLabel><content src="ch02.xhtml#idm46324211322800"/></navPoint>
+</navPoint>
+<navPoint id="idm46324211105968" playOrder="68"><navLabel><text>Launch, Monitor, and Maintain Your System</text></navLabel><content src="ch02.xhtml#idm46324211105968"/></navPoint>
+<navPoint id="idm46324210963392" playOrder="69"><navLabel><text>Try It Out!</text></navLabel><content src="ch02.xhtml#idm46324210963392"/></navPoint>
+<navPoint id="idm46324210960144" playOrder="70"><navLabel><text>Exercises</text></navLabel><content src="ch02.xhtml#idm46324210960144"/></navPoint>
+</navPoint>
+<navPoint id="classification_chapter" playOrder="71"><navLabel><text>3. Classification</text></navLabel><content src="ch03.xhtml#classification_chapter"/><navPoint id="idm46324210927248" playOrder="72"><navLabel><text>MNIST</text></navLabel><content src="ch03.xhtml#idm46324210927248"/></navPoint>
+<navPoint id="idm46324210926656" playOrder="73"><navLabel><text>Training a Binary Classifier</text></navLabel><content src="ch03.xhtml#idm46324210926656"/></navPoint>
+<navPoint id="idm46324210564432" playOrder="74"><navLabel><text>Performance Measures</text></navLabel><content src="ch03.xhtml#idm46324210564432"/><navPoint id="idm46324210560512" playOrder="75"><navLabel><text>Measuring Accuracy Using Cross-Validation</text></navLabel><content src="ch03.xhtml#idm46324210560512"/></navPoint>
+<navPoint id="idm46324210559920" playOrder="76"><navLabel><text>Confusion Matrix</text></navLabel><content src="ch03.xhtml#idm46324210559920"/></navPoint>
+<navPoint id="idm46324210203184" playOrder="77"><navLabel><text>Precision and Recall</text></navLabel><content src="ch03.xhtml#idm46324210203184"/></navPoint>
+<navPoint id="idm46324210040656" playOrder="78"><navLabel><text>Precision/Recall Trade-off</text></navLabel><content src="ch03.xhtml#idm46324210040656"/></navPoint>
+<navPoint id="idm46324209937440" playOrder="79"><navLabel><text>The ROC Curve</text></navLabel><content src="ch03.xhtml#idm46324209937440"/></navPoint>
+</navPoint>
+<navPoint id="idm46324209461376" playOrder="80"><navLabel><text>Multiclass Classification</text></navLabel><content src="ch03.xhtml#idm46324209461376"/></navPoint>
+<navPoint id="idm46324208452480" playOrder="81"><navLabel><text>Error Analysis</text></navLabel><content src="ch03.xhtml#idm46324208452480"/></navPoint>
+<navPoint id="idm46324208974720" playOrder="82"><navLabel><text>Multilabel Classification</text></navLabel><content src="ch03.xhtml#idm46324208974720"/></navPoint>
+<navPoint id="idm46324208139984" playOrder="83"><navLabel><text>Multioutput Classification</text></navLabel><content src="ch03.xhtml#idm46324208139984"/></navPoint>
+<navPoint id="idm46324207925152" playOrder="84"><navLabel><text>Exercises</text></navLabel><content src="ch03.xhtml#idm46324207925152"/></navPoint>
+</navPoint>
+<navPoint id="linear_models_chapter" playOrder="85"><navLabel><text>4. Training Models</text></navLabel><content src="ch04.xhtml#linear_models_chapter"/><navPoint id="idm46324207653472" playOrder="86"><navLabel><text>Linear Regression</text></navLabel><content src="ch04.xhtml#idm46324207653472"/><navPoint id="idm46324207535920" playOrder="87"><navLabel><text>The Normal Equation</text></navLabel><content src="ch04.xhtml#idm46324207535920"/></navPoint>
+<navPoint id="idm46324207535104" playOrder="88"><navLabel><text>Computational Complexity</text></navLabel><content src="ch04.xhtml#idm46324207535104"/></navPoint>
+</navPoint>
+<navPoint id="gradientDescent4" playOrder="89"><navLabel><text>Gradient Descent</text></navLabel><content src="ch04.xhtml#gradientDescent4"/><navPoint id="idm46324206954256" playOrder="90"><navLabel><text>Batch Gradient Descent</text></navLabel><content src="ch04.xhtml#idm46324206954256"/></navPoint>
+<navPoint id="idm46324206953632" playOrder="91"><navLabel><text>Stochastic Gradient Descent</text></navLabel><content src="ch04.xhtml#idm46324206953632"/></navPoint>
+<navPoint id="idm46324206740576" playOrder="92"><navLabel><text>Mini-batch Gradient Descent</text></navLabel><content src="ch04.xhtml#idm46324206740576"/></navPoint>
+</navPoint>
+<navPoint id="polynomial_regression" playOrder="93"><navLabel><text>Polynomial Regression</text></navLabel><content src="ch04.xhtml#polynomial_regression"/></navPoint>
+<navPoint id="idm46324206334336" playOrder="94"><navLabel><text>Learning Curves</text></navLabel><content src="ch04.xhtml#idm46324206334336"/></navPoint>
+<navPoint id="idm46324206084608" playOrder="95"><navLabel><text>Regularized Linear Models</text></navLabel><content src="ch04.xhtml#idm46324206084608"/><navPoint id="idm46324205794608" playOrder="96"><navLabel><text>Ridge Regression</text></navLabel><content src="ch04.xhtml#idm46324205794608"/></navPoint>
+<navPoint id="lasso_regression" playOrder="97"><navLabel><text>Lasso Regression</text></navLabel><content src="ch04.xhtml#lasso_regression"/></navPoint>
+<navPoint id="idm46324205573056" playOrder="98"><navLabel><text>Elastic Net</text></navLabel><content src="ch04.xhtml#idm46324205573056"/></navPoint>
+<navPoint id="idm46324205396624" playOrder="99"><navLabel><text>Early Stopping</text></navLabel><content src="ch04.xhtml#idm46324205396624"/></navPoint>
+</navPoint>
+<navPoint id="idm46324205151024" playOrder="100"><navLabel><text>Logistic Regression</text></navLabel><content src="ch04.xhtml#idm46324205151024"/><navPoint id="idm46324205142240" playOrder="101"><navLabel><text>Estimating Probabilities</text></navLabel><content src="ch04.xhtml#idm46324205142240"/></navPoint>
+<navPoint id="idm46324205141648" playOrder="102"><navLabel><text>Training and Cost Function</text></navLabel><content src="ch04.xhtml#idm46324205141648"/></navPoint>
+<navPoint id="idm46324205074048" playOrder="103"><navLabel><text>Decision Boundaries</text></navLabel><content src="ch04.xhtml#idm46324205074048"/></navPoint>
+<navPoint id="idm46324205001648" playOrder="104"><navLabel><text>Softmax Regression</text></navLabel><content src="ch04.xhtml#idm46324205001648"/></navPoint>
+</navPoint>
+<navPoint id="idm46324204589904" playOrder="105"><navLabel><text>Exercises</text></navLabel><content src="ch04.xhtml#idm46324204589904"/></navPoint>
+</navPoint>
+<navPoint id="svm_chapter" playOrder="106"><navLabel><text>5. Support Vector Machines</text></navLabel><content src="ch05.xhtml#svm_chapter"/><navPoint id="idm46324204238720" playOrder="107"><navLabel><text>Linear SVM Classification</text></navLabel><content src="ch05.xhtml#idm46324204238720"/><navPoint id="idm46324204220016" playOrder="108"><navLabel><text>Soft Margin Classification</text></navLabel><content src="ch05.xhtml#idm46324204220016"/></navPoint>
+</navPoint>
+<navPoint id="idm46324204238384" playOrder="109"><navLabel><text>Nonlinear SVM Classification</text></navLabel><content src="ch05.xhtml#idm46324204238384"/><navPoint id="idm46324203886784" playOrder="110"><navLabel><text>Polynomial Kernel</text></navLabel><content src="ch05.xhtml#idm46324203886784"/></navPoint>
+<navPoint id="idm46324203854320" playOrder="111"><navLabel><text>Similarity Features</text></navLabel><content src="ch05.xhtml#idm46324203854320"/></navPoint>
+<navPoint id="idm46324203793408" playOrder="112"><navLabel><text>Gaussian RBF Kernel</text></navLabel><content src="ch05.xhtml#idm46324203793408"/></navPoint>
+<navPoint id="idm46324203760816" playOrder="113"><navLabel><text>SVM Classes and Computational Complexity</text></navLabel><content src="ch05.xhtml#idm46324203760816"/></navPoint>
+</navPoint>
+<navPoint id="idm46324204049328" playOrder="114"><navLabel><text>SVM Regression</text></navLabel><content src="ch05.xhtml#idm46324204049328"/></navPoint>
+<navPoint id="idm46324203680272" playOrder="115"><navLabel><text>Under The Hood of Linear SVM Classifiers</text></navLabel><content src="ch05.xhtml#idm46324203680272"/></navPoint>
+<navPoint id="idm46324203585936" playOrder="116"><navLabel><text>The Dual Problem</text></navLabel><content src="ch05.xhtml#idm46324203585936"/><navPoint id="idm46324203279936" playOrder="117"><navLabel><text>Kernelized SVMs</text></navLabel><content src="ch05.xhtml#idm46324203279936"/></navPoint>
+</navPoint>
+<navPoint id="idm46324203279312" playOrder="118"><navLabel><text>Exercises</text></navLabel><content src="ch05.xhtml#idm46324203279312"/></navPoint>
+</navPoint>
+<navPoint id="trees_chapter" playOrder="119"><navLabel><text>6. Decision Trees</text></navLabel><content src="ch06.xhtml#trees_chapter"/><navPoint id="idm46324202837232" playOrder="120"><navLabel><text>Training and Visualizing a Decision Tree</text></navLabel><content src="ch06.xhtml#idm46324202837232"/></navPoint>
+<navPoint id="idm46324202836608" playOrder="121"><navLabel><text>Making Predictions</text></navLabel><content src="ch06.xhtml#idm46324202836608"/></navPoint>
+<navPoint id="idm46324202655248" playOrder="122"><navLabel><text>Estimating Class Probabilities</text></navLabel><content src="ch06.xhtml#idm46324202655248"/></navPoint>
+<navPoint id="idm46324202524784" playOrder="123"><navLabel><text>The CART Training Algorithm</text></navLabel><content src="ch06.xhtml#idm46324202524784"/></navPoint>
+<navPoint id="idm46324202461456" playOrder="124"><navLabel><text>Computational Complexity</text></navLabel><content src="ch06.xhtml#idm46324202461456"/></navPoint>
+<navPoint id="idm46324202452048" playOrder="125"><navLabel><text>Gini Impurity or Entropy?</text></navLabel><content src="ch06.xhtml#idm46324202452048"/></navPoint>
+<navPoint id="idm46324202421744" playOrder="126"><navLabel><text>Regularization Hyperparameters</text></navLabel><content src="ch06.xhtml#idm46324202421744"/></navPoint>
+<navPoint id="idm46324202421120" playOrder="127"><navLabel><text>Regression</text></navLabel><content src="ch06.xhtml#idm46324202421120"/></navPoint>
+<navPoint id="idm46324202222112" playOrder="128"><navLabel><text>Sensitivity to axis orientation</text></navLabel><content src="ch06.xhtml#idm46324202222112"/></navPoint>
+<navPoint id="idm46324202033808" playOrder="129"><navLabel><text>Decision Trees have a high variance</text></navLabel><content src="ch06.xhtml#idm46324202033808"/></navPoint>
+<navPoint id="idm46324201965296" playOrder="130"><navLabel><text>Exercises</text></navLabel><content src="ch06.xhtml#idm46324201965296"/></navPoint>
+</navPoint>
+<navPoint id="ensembles_chapter" playOrder="131"><navLabel><text>7. Ensemble Learning and Random Forests</text></navLabel><content src="ch07.xhtml#ensembles_chapter"/><navPoint id="idm46324201917488" playOrder="132"><navLabel><text>Voting Classifiers</text></navLabel><content src="ch07.xhtml#idm46324201917488"/></navPoint>
+<navPoint id="idm46324201562176" playOrder="133"><navLabel><text>Bagging and Pasting</text></navLabel><content src="ch07.xhtml#idm46324201562176"/><navPoint id="idm46324201500240" playOrder="134"><navLabel><text>Bagging and Pasting in Scikit-Learn</text></navLabel><content src="ch07.xhtml#idm46324201500240"/></navPoint>
+<navPoint id="idm46324201469808" playOrder="135"><navLabel><text>Out-of-Bag Evaluation</text></navLabel><content src="ch07.xhtml#idm46324201469808"/></navPoint>
+</navPoint>
+<navPoint id="idm46324201469312" playOrder="136"><navLabel><text>Random Patches and Random Subspaces</text></navLabel><content src="ch07.xhtml#idm46324201469312"/></navPoint>
+<navPoint id="idm46324201250128" playOrder="137"><navLabel><text>Random Forests</text></navLabel><content src="ch07.xhtml#idm46324201250128"/><navPoint id="idm46324201145616" playOrder="138"><navLabel><text>Extra-Trees</text></navLabel><content src="ch07.xhtml#idm46324201145616"/></navPoint>
+<navPoint id="idm46324201126528" playOrder="139"><navLabel><text>Feature Importance</text></navLabel><content src="ch07.xhtml#idm46324201126528"/></navPoint>
+</navPoint>
+<navPoint id="idm46324201005568" playOrder="140"><navLabel><text>Boosting</text></navLabel><content src="ch07.xhtml#idm46324201005568"/><navPoint id="idm46324200962128" playOrder="141"><navLabel><text>AdaBoost</text></navLabel><content src="ch07.xhtml#idm46324200962128"/></navPoint>
+<navPoint id="idm46324200961216" playOrder="142"><navLabel><text>Gradient Boosting</text></navLabel><content src="ch07.xhtml#idm46324200961216"/></navPoint>
+<navPoint id="idm46324200331104" playOrder="143"><navLabel><text>Histogram-Based Gradient Boosting</text></navLabel><content src="ch07.xhtml#idm46324200331104"/></navPoint>
+</navPoint>
+<navPoint id="idm46324200209680" playOrder="144"><navLabel><text>Stacking</text></navLabel><content src="ch07.xhtml#idm46324200209680"/></navPoint>
+<navPoint id="idm46324200209088" playOrder="145"><navLabel><text>Exercises</text></navLabel><content src="ch07.xhtml#idm46324200209088"/></navPoint>
+</navPoint>
+<navPoint id="dimensionality_chapter" playOrder="146"><navLabel><text>8. Dimensionality Reduction</text></navLabel><content src="ch08.xhtml#dimensionality_chapter"/><navPoint id="idm46324200005744" playOrder="147"><navLabel><text>The Curse of Dimensionality</text></navLabel><content src="ch08.xhtml#idm46324200005744"/></navPoint>
+<navPoint id="idm46324199990032" playOrder="148"><navLabel><text>Main Approaches for Dimensionality Reduction</text></navLabel><content src="ch08.xhtml#idm46324199990032"/><navPoint id="idm46324199986944" playOrder="149"><navLabel><text>Projection</text></navLabel><content src="ch08.xhtml#idm46324199986944"/></navPoint>
+<navPoint id="idm46324199964240" playOrder="150"><navLabel><text>Manifold Learning</text></navLabel><content src="ch08.xhtml#idm46324199964240"/></navPoint>
+</navPoint>
+<navPoint id="idm46324199946768" playOrder="151"><navLabel><text>PCA</text></navLabel><content src="ch08.xhtml#idm46324199946768"/><navPoint id="idm46324199940944" playOrder="152"><navLabel><text>Preserving the Variance</text></navLabel><content src="ch08.xhtml#idm46324199940944"/></navPoint>
+<navPoint id="idm46324199930496" playOrder="153"><navLabel><text>Principal Components</text></navLabel><content src="ch08.xhtml#idm46324199930496"/></navPoint>
+<navPoint id="idm46324199817520" playOrder="154"><navLabel><text>Projecting Down to d Dimensions</text></navLabel><content src="ch08.xhtml#idm46324199817520"/></navPoint>
+<navPoint id="idm46324199750784" playOrder="155"><navLabel><text>Using Scikit-Learn</text></navLabel><content src="ch08.xhtml#idm46324199750784"/></navPoint>
+<navPoint id="idm46324199773056" playOrder="156"><navLabel><text>Explained Variance Ratio</text></navLabel><content src="ch08.xhtml#idm46324199773056"/></navPoint>
+<navPoint id="idm46324199710880" playOrder="157"><navLabel><text>Choosing the Right Number of Dimensions</text></navLabel><content src="ch08.xhtml#idm46324199710880"/></navPoint>
+<navPoint id="idm46324199710288" playOrder="158"><navLabel><text>PCA for Compression</text></navLabel><content src="ch08.xhtml#idm46324199710288"/></navPoint>
+<navPoint id="idm46324199261568" playOrder="159"><navLabel><text>Randomized PCA</text></navLabel><content src="ch08.xhtml#idm46324199261568"/></navPoint>
+<navPoint id="idm46324199212128" playOrder="160"><navLabel><text>Incremental PCA</text></navLabel><content src="ch08.xhtml#idm46324199212128"/></navPoint>
+</navPoint>
+<navPoint id="idm46324199946272" playOrder="161"><navLabel><text>Random Projection</text></navLabel><content src="ch08.xhtml#idm46324199946272"/></navPoint>
+<navPoint id="idm46324198944272" playOrder="162"><navLabel><text>LLE</text></navLabel><content src="ch08.xhtml#idm46324198944272"/></navPoint>
+<navPoint id="idm46324198694848" playOrder="163"><navLabel><text>Exercises</text></navLabel><content src="ch08.xhtml#idm46324198694848"/></navPoint>
+</navPoint>
+<navPoint id="unsupervised_learning_chapter" playOrder="164"><navLabel><text>9. Unsupervised Learning Techniques</text></navLabel><content src="ch09.xhtml#unsupervised_learning_chapter"/><navPoint id="idm46324198396928" playOrder="165"><navLabel><text>Clustering</text></navLabel><content src="ch09.xhtml#idm46324198396928"/><navPoint id="idm46324198355808" playOrder="166"><navLabel><text>K-Means</text></navLabel><content src="ch09.xhtml#idm46324198355808"/></navPoint>
+<navPoint id="idm46324198354992" playOrder="167"><navLabel><text>Limits of K-Means</text></navLabel><content src="ch09.xhtml#idm46324198354992"/></navPoint>
+<navPoint id="idm46324197723344" playOrder="168"><navLabel><text>Using Clustering for Image Segmentation</text></navLabel><content src="ch09.xhtml#idm46324197723344"/></navPoint>
+<navPoint id="idm46324197722752" playOrder="169"><navLabel><text>Using Clustering for Semi-Supervised Learning</text></navLabel><content src="ch09.xhtml#idm46324197722752"/></navPoint>
+<navPoint id="idm46324197575056" playOrder="170"><navLabel><text>DBSCAN</text></navLabel><content src="ch09.xhtml#idm46324197575056"/></navPoint>
+<navPoint id="idm46324196870096" playOrder="171"><navLabel><text>Other Clustering Algorithms</text></navLabel><content src="ch09.xhtml#idm46324196870096"/></navPoint>
+</navPoint>
+<navPoint id="idm46324198396336" playOrder="172"><navLabel><text>Gaussian Mixtures</text></navLabel><content src="ch09.xhtml#idm46324198396336"/><navPoint id="idm46324196131520" playOrder="173"><navLabel><text>Anomaly Detection Using Gaussian Mixtures</text></navLabel><content src="ch09.xhtml#idm46324196131520"/></navPoint>
+<navPoint id="idm46324196112400" playOrder="174"><navLabel><text>Selecting the Number of Clusters</text></navLabel><content src="ch09.xhtml#idm46324196112400"/></navPoint>
+<navPoint id="idm46324196099296" playOrder="175"><navLabel><text>Bayesian Gaussian Mixture Models</text></navLabel><content src="ch09.xhtml#idm46324196099296"/></navPoint>
+<navPoint id="idm46324195876880" playOrder="176"><navLabel><text>Other Algorithms for Anomaly and Novelty Detection</text></navLabel><content src="ch09.xhtml#idm46324195876880"/></navPoint>
+</navPoint>
+<navPoint id="exercises-ch9" playOrder="177"><navLabel><text>Exercises</text></navLabel><content src="ch09.xhtml#exercises-ch9"/></navPoint>
+</navPoint>
+<navPoint id="neural_nets_part" playOrder="178"><navLabel><text>II. Neural Networks and Deep Learning</text></navLabel><content src="part02.xhtml#neural_nets_part"/></navPoint>
+<navPoint id="ann_chapter" playOrder="179"><navLabel><text>10. Introduction to Artificial Neural Networks with Keras</text></navLabel><content src="ch10.xhtml#ann_chapter"/><navPoint id="idm46324195800352" playOrder="180"><navLabel><text>From Biological to Artificial Neurons</text></navLabel><content src="ch10.xhtml#idm46324195800352"/><navPoint id="idm46324195783344" playOrder="181"><navLabel><text>Biological Neurons</text></navLabel><content src="ch10.xhtml#idm46324195783344"/></navPoint>
+<navPoint id="idm46324195763360" playOrder="182"><navLabel><text>Logical Computations with Neurons</text></navLabel><content src="ch10.xhtml#idm46324195763360"/></navPoint>
+<navPoint id="theperceptron" playOrder="183"><navLabel><text>The Perceptron</text></navLabel><content src="ch10.xhtml#theperceptron"/></navPoint>
+<navPoint id="idm46324195749568" playOrder="184"><navLabel><text>The Multilayer Perceptron and Backpropagation</text></navLabel><content src="ch10.xhtml#idm46324195749568"/></navPoint>
+<navPoint id="idm46324195394288" playOrder="185"><navLabel><text>Regression MLPs</text></navLabel><content src="ch10.xhtml#idm46324195394288"/></navPoint>
+<navPoint id="idm46324195393696" playOrder="186"><navLabel><text>Classification MLPs</text></navLabel><content src="ch10.xhtml#idm46324195393696"/></navPoint>
+</navPoint>
+<navPoint id="idm46324195799856" playOrder="187"><navLabel><text>Implementing MLPs with Keras</text></navLabel><content src="ch10.xhtml#idm46324195799856"/><navPoint id="idm46324195113184" playOrder="188"><navLabel><text>Building an Image Classifier Using the Sequential API</text></navLabel><content src="ch10.xhtml#idm46324195113184"/></navPoint>
+<navPoint id="idm46324193971616" playOrder="189"><navLabel><text>Building a Regression MLP Using the Sequential API</text></navLabel><content src="ch10.xhtml#idm46324193971616"/></navPoint>
+<navPoint id="idm46324193851440" playOrder="190"><navLabel><text>Building Complex Models Using the Functional API</text></navLabel><content src="ch10.xhtml#idm46324193851440"/></navPoint>
+<navPoint id="idm46324193850496" playOrder="191"><navLabel><text>Using the Subclassing API to Build Dynamic Models</text></navLabel><content src="ch10.xhtml#idm46324193850496"/></navPoint>
+<navPoint id="idm46324192400336" playOrder="192"><navLabel><text>Saving and Restoring a Model</text></navLabel><content src="ch10.xhtml#idm46324192400336"/></navPoint>
+<navPoint id="idm46324192310816" playOrder="193"><navLabel><text>Using Callbacks</text></navLabel><content src="ch10.xhtml#idm46324192310816"/></navPoint>
+<navPoint id="idm46324192310192" playOrder="194"><navLabel><text>Using TensorBoard for Visualization</text></navLabel><content src="ch10.xhtml#idm46324192310192"/></navPoint>
+</navPoint>
+<navPoint id="idm46324195125760" playOrder="195"><navLabel><text>Fine-Tuning Neural Network Hyperparameters</text></navLabel><content src="ch10.xhtml#idm46324195125760"/><navPoint id="idm46324190527248" playOrder="196"><navLabel><text>Number of Hidden Layers</text></navLabel><content src="ch10.xhtml#idm46324190527248"/></navPoint>
+<navPoint id="idm46324190488720" playOrder="197"><navLabel><text>Number of Neurons per Hidden Layer</text></navLabel><content src="ch10.xhtml#idm46324190488720"/></navPoint>
+<navPoint id="idm46324190483136" playOrder="198"><navLabel><text>Learning Rate, Batch Size, and Other Hyperparameters</text></navLabel><content src="ch10.xhtml#idm46324190483136"/></navPoint>
+</navPoint>
+<navPoint id="idm46324191614080" playOrder="199"><navLabel><text>Exercises</text></navLabel><content src="ch10.xhtml#idm46324191614080"/></navPoint>
+</navPoint>
+<navPoint id="deep_chapter" playOrder="200"><navLabel><text>11. Training Deep Neural Networks</text></navLabel><content src="ch11.xhtml#deep_chapter"/><navPoint id="idm46324190399024" playOrder="201"><navLabel><text>The Vanishing/Exploding Gradients Problems</text></navLabel><content src="ch11.xhtml#idm46324190399024"/><navPoint id="idm46324190383056" playOrder="202"><navLabel><text>Glorot and He Initialization</text></navLabel><content src="ch11.xhtml#idm46324190383056"/></navPoint>
+<navPoint id="idm46324190382432" playOrder="203"><navLabel><text>Better Activation Functions</text></navLabel><content src="ch11.xhtml#idm46324190382432"/></navPoint>
+<navPoint id="idm46324189934992" playOrder="204"><navLabel><text>Batch Normalization</text></navLabel><content src="ch11.xhtml#idm46324189934992"/></navPoint>
+<navPoint id="idm46324189934528" playOrder="205"><navLabel><text>Gradient Clipping</text></navLabel><content src="ch11.xhtml#idm46324189934528"/></navPoint>
+</navPoint>
+<navPoint id="idm46324189366384" playOrder="206"><navLabel><text>Reusing Pretrained Layers</text></navLabel><content src="ch11.xhtml#idm46324189366384"/><navPoint id="idm46324189339968" playOrder="207"><navLabel><text>Transfer Learning with Keras</text></navLabel><content src="ch11.xhtml#idm46324189339968"/></navPoint>
+<navPoint id="idm46324189339344" playOrder="208"><navLabel><text>Unsupervised Pretraining</text></navLabel><content src="ch11.xhtml#idm46324189339344"/></navPoint>
+<navPoint id="idm46324188918928" playOrder="209"><navLabel><text>Pretraining on an Auxiliary Task</text></navLabel><content src="ch11.xhtml#idm46324188918928"/></navPoint>
+</navPoint>
+<navPoint id="idm46324189353920" playOrder="210"><navLabel><text>Faster Optimizers</text></navLabel><content src="ch11.xhtml#idm46324189353920"/><navPoint id="idm46324188906192" playOrder="211"><navLabel><text>Momentum Optimization</text></navLabel><content src="ch11.xhtml#idm46324188906192"/></navPoint>
+<navPoint id="idm46324188905536" playOrder="212"><navLabel><text>Nesterov Accelerated Gradient</text></navLabel><content src="ch11.xhtml#idm46324188905536"/></navPoint>
+<navPoint id="idm46324188769840" playOrder="213"><navLabel><text>AdaGrad</text></navLabel><content src="ch11.xhtml#idm46324188769840"/></navPoint>
+<navPoint id="idm46324188660768" playOrder="214"><navLabel><text>RMSProp</text></navLabel><content src="ch11.xhtml#idm46324188660768"/></navPoint>
+<navPoint id="idm46324188610768" playOrder="215"><navLabel><text>Adam Optimization</text></navLabel><content src="ch11.xhtml#idm46324188610768"/></navPoint>
+<navPoint id="idm46324188610176" playOrder="216"><navLabel><text>Learning Rate Scheduling</text></navLabel><content src="ch11.xhtml#idm46324188610176"/></navPoint>
+</navPoint>
+<navPoint id="idm46324188302912" playOrder="217"><navLabel><text>Avoiding Overfitting Through Regularization</text></navLabel><content src="ch11.xhtml#idm46324188302912"/><navPoint id="idm46324187761088" playOrder="218"><navLabel><text>ℓ1 and ℓ2 Regularization</text></navLabel><content src="ch11.xhtml#idm46324187761088"/></navPoint>
+<navPoint id="idm46324187614624" playOrder="219"><navLabel><text>Dropout</text></navLabel><content src="ch11.xhtml#idm46324187614624"/></navPoint>
+<navPoint id="idm46324187437616" playOrder="220"><navLabel><text>Monte Carlo (MC) Dropout</text></navLabel><content src="ch11.xhtml#idm46324187437616"/></navPoint>
+<navPoint id="idm46324187436992" playOrder="221"><navLabel><text>Max-Norm Regularization</text></navLabel><content src="ch11.xhtml#idm46324187436992"/></navPoint>
+</navPoint>
+<navPoint id="idm46324186987200" playOrder="222"><navLabel><text>Summary and Practical Guidelines</text></navLabel><content src="ch11.xhtml#idm46324186987200"/></navPoint>
+<navPoint id="idm46324186940256" playOrder="223"><navLabel><text>Exercises</text></navLabel><content src="ch11.xhtml#idm46324186940256"/></navPoint>
+</navPoint>
+<navPoint id="tensorflow_chapter" playOrder="224"><navLabel><text>12. Custom Models and Training with TensorFlow</text></navLabel><content src="ch12.xhtml#tensorflow_chapter"/><navPoint id="idm46324186909776" playOrder="225"><navLabel><text>A Quick Tour of TensorFlow</text></navLabel><content src="ch12.xhtml#idm46324186909776"/></navPoint>
+<navPoint id="idm46324186909152" playOrder="226"><navLabel><text>Using TensorFlow like NumPy</text></navLabel><content src="ch12.xhtml#idm46324186909152"/><navPoint id="idm46324186849280" playOrder="227"><navLabel><text>Tensors and Operations</text></navLabel><content src="ch12.xhtml#idm46324186849280"/></navPoint>
+<navPoint id="idm46324186848784" playOrder="228"><navLabel><text>Tensors and NumPy</text></navLabel><content src="ch12.xhtml#idm46324186848784"/></navPoint>
+<navPoint id="idm46324186553664" playOrder="229"><navLabel><text>Type Conversions</text></navLabel><content src="ch12.xhtml#idm46324186553664"/></navPoint>
+<navPoint id="idm46324186407744" playOrder="230"><navLabel><text>Variables</text></navLabel><content src="ch12.xhtml#idm46324186407744"/></navPoint>
+<navPoint id="idm46324186199040" playOrder="231"><navLabel><text>Other Data Structures</text></navLabel><content src="ch12.xhtml#idm46324186199040"/></navPoint>
+</navPoint>
+<navPoint id="idm46324186147456" playOrder="232"><navLabel><text>Customizing Models and Training Algorithms</text></navLabel><content src="ch12.xhtml#idm46324186147456"/><navPoint id="idm46324186144144" playOrder="233"><navLabel><text>Custom Loss Functions</text></navLabel><content src="ch12.xhtml#idm46324186144144"/></navPoint>
+<navPoint id="idm46324186024528" playOrder="234"><navLabel><text>Saving and Loading Models That Contain Custom Components</text></navLabel><content src="ch12.xhtml#idm46324186024528"/></navPoint>
+<navPoint id="idm46324186023936" playOrder="235"><navLabel><text>Custom Activation Functions, Initializers, Regularizers, and Constraints</text></navLabel><content src="ch12.xhtml#idm46324186023936"/></navPoint>
+<navPoint id="idm46324185252864" playOrder="236"><navLabel><text>Custom Metrics</text></navLabel><content src="ch12.xhtml#idm46324185252864"/></navPoint>
+<navPoint id="idm46324185252272" playOrder="237"><navLabel><text>Custom Layers</text></navLabel><content src="ch12.xhtml#idm46324185252272"/></navPoint>
+<navPoint id="idm46324184745504" playOrder="238"><navLabel><text>Custom Models</text></navLabel><content src="ch12.xhtml#idm46324184745504"/></navPoint>
+<navPoint id="idm46324184268032" playOrder="239"><navLabel><text>Losses and Metrics Based on Model Internals</text></navLabel><content src="ch12.xhtml#idm46324184268032"/></navPoint>
+<navPoint id="idm46324183539632" playOrder="240"><navLabel><text>Computing Gradients Using Autodiff</text></navLabel><content src="ch12.xhtml#idm46324183539632"/></navPoint>
+<navPoint id="idm46324183538688" playOrder="241"><navLabel><text>Custom Training Loops</text></navLabel><content src="ch12.xhtml#idm46324183538688"/></navPoint>
+</navPoint>
+<navPoint id="idm46324186146864" playOrder="242"><navLabel><text>TensorFlow Functions and Graphs</text></navLabel><content src="ch12.xhtml#idm46324186146864"/><navPoint id="idm46324181803696" playOrder="243"><navLabel><text>AutoGraph and Tracing</text></navLabel><content src="ch12.xhtml#idm46324181803696"/></navPoint>
+<navPoint id="tf_functionrules" playOrder="244"><navLabel><text>TF Function Rules</text></navLabel><content src="ch12.xhtml#tf_functionrules"/></navPoint>
+</navPoint>
+<navPoint id="idm46324182016224" playOrder="245"><navLabel><text>Exercises</text></navLabel><content src="ch12.xhtml#idm46324182016224"/></navPoint>
+</navPoint>
+<navPoint id="data_chapter" playOrder="246"><navLabel><text>13. Loading and Preprocessing Data with TensorFlow</text></navLabel><content src="ch13.xhtml#data_chapter"/><navPoint id="idm46324181664704" playOrder="247"><navLabel><text>The tf.data API</text></navLabel><content src="ch13.xhtml#idm46324181664704"/><navPoint id="idm46324181525968" playOrder="248"><navLabel><text>Chaining Transformations</text></navLabel><content src="ch13.xhtml#idm46324181525968"/></navPoint>
+<navPoint id="idm46324181192368" playOrder="249"><navLabel><text>Shuffling the Data</text></navLabel><content src="ch13.xhtml#idm46324181192368"/></navPoint>
+<navPoint id="idm46324180988976" playOrder="250"><navLabel><text>Preprocessing the Data</text></navLabel><content src="ch13.xhtml#idm46324180988976"/></navPoint>
+<navPoint id="idm46324180761472" playOrder="251"><navLabel><text>Putting Everything Together</text></navLabel><content src="ch13.xhtml#idm46324180761472"/></navPoint>
+<navPoint id="idm46324180607104" playOrder="252"><navLabel><text>Prefetching</text></navLabel><content src="ch13.xhtml#idm46324180607104"/></navPoint>
+<navPoint id="idm46324180548128" playOrder="253"><navLabel><text>Using the Dataset with Keras</text></navLabel><content src="ch13.xhtml#idm46324180548128"/></navPoint>
+</navPoint>
+<navPoint id="idm46324180541488" playOrder="254"><navLabel><text>The TFRecord Format</text></navLabel><content src="ch13.xhtml#idm46324180541488"/><navPoint id="idm46324180021072" playOrder="255"><navLabel><text>Compressed TFRecord Files</text></navLabel><content src="ch13.xhtml#idm46324180021072"/></navPoint>
+<navPoint id="idm46324180020736" playOrder="256"><navLabel><text>A Brief Introduction to Protocol Buffers</text></navLabel><content src="ch13.xhtml#idm46324180020736"/></navPoint>
+<navPoint id="idm46324179779552" playOrder="257"><navLabel><text>TensorFlow Protobufs</text></navLabel><content src="ch13.xhtml#idm46324179779552"/></navPoint>
+<navPoint id="idm46324179370720" playOrder="258"><navLabel><text>Loading and Parsing Examples</text></navLabel><content src="ch13.xhtml#idm46324179370720"/></navPoint>
+<navPoint id="idm46324179370128" playOrder="259"><navLabel><text>Handling Lists of Lists Using the SequenceExample Protobuf</text></navLabel><content src="ch13.xhtml#idm46324179370128"/></navPoint>
+</navPoint>
+<navPoint id="idm46324180123616" playOrder="260"><navLabel><text>Keras Preprocessing Layers</text></navLabel><content src="ch13.xhtml#idm46324180123616"/><navPoint id="idm46324178947696" playOrder="261"><navLabel><text>The Normalization Layer</text></navLabel><content src="ch13.xhtml#idm46324178947696"/></navPoint>
+<navPoint id="idm46324178947104" playOrder="262"><navLabel><text>The Discretization Layer</text></navLabel><content src="ch13.xhtml#idm46324178947104"/></navPoint>
+<navPoint id="idm46324178302592" playOrder="263"><navLabel><text>The CategoryEncoding Layer</text></navLabel><content src="ch13.xhtml#idm46324178302592"/></navPoint>
+<navPoint id="idm46324178302000" playOrder="264"><navLabel><text>The StringLookup Layer</text></navLabel><content src="ch13.xhtml#idm46324178302000"/></navPoint>
+<navPoint id="idm46324177896368" playOrder="265"><navLabel><text>The Hashing Layer</text></navLabel><content src="ch13.xhtml#idm46324177896368"/></navPoint>
+<navPoint id="idm46324177810752" playOrder="266"><navLabel><text>Encoding Categorical Features Using Embeddings</text></navLabel><content src="ch13.xhtml#idm46324177810752"/></navPoint>
+<navPoint id="idm46324177810160" playOrder="267"><navLabel><text>Text Preprocessing</text></navLabel><content src="ch13.xhtml#idm46324177810160"/></navPoint>
+<navPoint id="idm46324177333888" playOrder="268"><navLabel><text>Using Pretrained Language Model Components</text></navLabel><content src="ch13.xhtml#idm46324177333888"/></navPoint>
+</navPoint>
+<navPoint id="idm46324179001376" playOrder="269"><navLabel><text>Image Preprocessing Layers</text></navLabel><content src="ch13.xhtml#idm46324179001376"/></navPoint>
+<navPoint id="idm46324177021648" playOrder="270"><navLabel><text>The TensorFlow Datasets (TFDS) Project</text></navLabel><content src="ch13.xhtml#idm46324177021648"/></navPoint>
+<navPoint id="idm46324177021056" playOrder="271"><navLabel><text>Exercises</text></navLabel><content src="ch13.xhtml#idm46324177021056"/></navPoint>
+</navPoint>
+</navMap>
+</ncx>
